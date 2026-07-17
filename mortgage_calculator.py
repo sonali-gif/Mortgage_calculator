@@ -16,3 +16,10 @@ loan_amount =st.number_input(#number_input() create a box tht accept only number
     step=10000
 )
 
+interest_rate = st.number_input(
+    "Annual Interest Rate (%)",
+    min_value=0.0,
+    max_value=20.0,
+    value=8.5,
+    step=0.1
+)
