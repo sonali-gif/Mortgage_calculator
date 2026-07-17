@@ -23,3 +23,12 @@ interest_rate = st.number_input(
     value=8.5,
     step=0.1
 )
+
+loan_years = st.number_input(
+    "Loan Duration (Years)",
+    min_value=1,
+    max_value=40,
+    value=20,
+    step=1
+)
+
